@@ -13,6 +13,7 @@ export default class Clock extends React.Component{
         this.setState({
             locale: 'bn-BD'
         })
+        
     }
     tick(){
         this.setState({
